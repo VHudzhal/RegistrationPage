@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  background: sandybrown;
+  color: yellow;
+}
+.profile td,tr{
+    border: 1px solid black;
+    padding: 3px;
+    font: 17px bolder;
+}
+table.form_table,#age{
+    font: bold 10pt verdana;
+    color: yellow;
+    border: 1px solid #d7d7d7;
+}
+#welcome div{
+    font: normal 15pt Calibri;
+    color: green;
+}
+.form_table{
+position: relative;
+bottom: 50%;
+left: 30%;
+}
+.form_table div{
+    font: normal 8pt Calibri;
+}
+.form_style input{
+border-radius: 15px 0 15px 0;
+position: static;
+font-size: 17px;
+color: wheat;
+}
+.form_style input:focus{
+outline: none;
+border-color: #be419c ;
+}
+.form_style .rfield_error {
+  display: block;
+  padding: 0px 10px;
+  background-color: #d8512d;
+  color: #fff;
+  font-size: 12px;
+  z-index: 1;
+  position: absolute;
+  top: 25px;
+  left: auto;
+  right: 32px;
+  visibility: hidden;
+}
+.form_style .rcheck .rfield_error {
+  top: 0px;
+  left: 22px;
+  right: auto;
+}
+#UserInfo:target ~ #navigation #link_userinfo,
+#contact:target ~  #navigation #link_contact,
+#address:target ~  #navigation #link_address{
+    background-color: #221662;
+    color: #be419c;
+}
+#Language {
+    display: block;
+    position: absolute;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+    top: 92%;
+    left: 92%;
+}
+.enbut{
+height: 32mm;
+
+}
+.rubut{
+height: 32mm;
+
+}
+.uabut{
+	height: 32mm;
+
+}
+#register{
+position: fixed; left: 30%;
+ }
+/**
+ * .headline4{
+ *         position: relative;
+ *         border-color: #221662;
+ *         border-style: solid;
+ *         border-width: 3px 3px 3px 3px;
+ *         background: #be419c;
+ *         margin: 5px 5px 5px -5px;
+ *         padding: 5px 15px;
+ *         -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+ *         -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+ *         box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+ * }
+ */
+input{
+float: outside;
+height: 7mm;
+color: black;
+background-color: darkorchid;
+}
+.profile{
+width: 10cm;
+height: 7cm;
+font-family: fantasy;
+font-size: 7mm;
+border-style: inset;
+border-color: #2264dd;
+line-height: normal;
+color: darkred;
+image-orientation: auto;
+border-collapse: collapse;
+}

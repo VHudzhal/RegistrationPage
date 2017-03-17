@@ -1,0 +1,207 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  background: aliceblue;
+  color: white;
+}
+#UserInfo{
+    background-position: center;
+	top: 600px;
+    right: 500px;
+	height: auto;
+	width: 12cm;
+    background-color: blueviolet;
+    z-index: 1; 
+}
+#contact_data{
+    background-color: #6bac14;
+    background: #E26A6A;
+    z-index: 3;
+}
+#address{
+    background-color: #ff0000;
+    z-index: 2;
+}
+#Language{
+    position: absolute;   
+}
+#indexbody{
+background-color: #6bac14;    
+}
+.contact{
+   font-family: "Roboto", Arial, sans-serif; 
+}
+.Link{
+    display: inline-table;
+}
+
+#tabs{
+display: table-row-group;
+position: relative;
+
+}
+
+#tabLog,
+#tabReg,
+#tabRec{
+    border-style: ridge ridge ridge none;
+    border-color: #1830C8 #1830C8 #1830C8 navajowhite;
+    position: relative;
+       /*display: grid;
+    /* положение */
+
+z-index: 1;
+    width: 32px; /* ширина блока */
+    height: 32px; /* высота блока */
+    font: 14px Arial; /* размер и тип шрифта */
+    color: #fff; /* цвет текста */
+    text-align: center; /* выравнивание текста по центру */
+    padding: 0; /* отступы от границ внутри блока */
+    float: right;
+    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-border-radius: 0 5px 5px 0; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 0 5px 5px 0;
+}
+
+
+
+#Language {
+    display: block;
+    position: static;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+.enbut{
+height: 32mm;
+
+}
+.rubut{
+height: 32mm;
+
+}
+.uabut{
+	height: 32mm;
+
+}
+
+.all{
+    position: absolute;
+}
+.authf {
+  position: static;
+  top: 50%;
+  left: 50%;
+  /*margin: -150px -150px -150px -150px;*/
+  width: 8cm;
+  height: 10cm;
+  color: rgba(255, 255, 255, 0.85);
+  display: inline-block;
+    float: inherit;
+  font-size: 16px;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset -1px 1px 0px rgba(255, 255, 255, 0.3), inset 1px 1px 0px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: inset -1px 1px 0px rgba(255, 255, 255, 0.3), inset 1px 1px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: inset -1px 1px 0px rgba(255, 255, 255, 0.3), inset 1px 1px 0px rgba(255, 255, 255, 0.3);
+  border: 1px solid #000;
+  background: rgba(0,0,0,0.1);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+}
+
+.links{
+    float: right;
+    width: auto;
+}
+input[type="submit"] {
+    right: 17px;
+    height: 43px;
+    width: 65px;
+    border-radius: 0 25px 25px 0;
+    background-color: #6bac14;
+    }
+
+.login, .password{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 25px 25px 25px 25px;
+    color: gold;
+}
+
+[for="password"],
+.password,
+input[type="submit"] {
+  top: 150px;
+}
+
+
+/**
+ * .div2{
+ * 	background-position: right;
+ * 	top: 600px;
+ * 	height: auto;
+ * 	width: auto;
+ *     background-color: #221662;
+ * }
+ */
+
+td{
+	font-family: "Calibri";
+	color: #ff0000;
+    height: auto;
+}
+
+input{
+float: inherit;
+height: 10mm;
+}
+
+.headline1{
+  position: relative;
+  margin-left: -22px; /* 15px padding + 7px border ribbon shadow*/
+  margin-right: -22px;
+  padding: 15px;
+  background: #1830C8;
+  background: -moz-linear-gradient(#6D01C4, #1830C8);
+  background: -webkit-gradient(linear, left top, left bottom, from(#6D01C4), to(#1830C8));
+  background: -webkit-linear-gradient(#6D01C4, #1830C8);
+  background: -o-linear-gradient(#6D01C4, #1830C8);
+  background: -ms-linear-gradient(#6D01C4, #1830C8);
+  background: linear-gradient(#6D01C4, #1830C8);
+  -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+  -moz-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+  box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+  text-shadow: 0 1px 0 #fff;
+}
+
+  .headline4:after
+  {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          bottom: 15px;
+          right: 15px;
+          width: auto;
+          height: 10px;
+          background: rgba(0, 0, 0, 0.7);
+          -webkit-box-shadow: 0 15px 10px rgba(0,0,0, .7);
+          -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, .7);
+          box-shadow: 0 15px 10px rgba(0, 0, 0, .7);
+          -webkit-transform: rotate(2deg);
+          -moz-transform: rotate(2deg);
+          -o-transform: rotate(2deg);
+          -ms-transform: rotate(2deg);
+          transform: rotate(2deg);
+  }
+ 
